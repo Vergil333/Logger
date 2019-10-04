@@ -1,0 +1,27 @@
+2019-10-04 17:40:35.883 +0200 INFO  TestClassB:19 - Class A Test 1 slept for 1000 millis
+2019-10-04 17:40:37.888 +0200 INFO  TestClassB:25 - Class A Test 2 slept for 2000 millis
+2019-10-04 17:40:38.382 +0200 INFO  TestClassB:19 - Class B Test 1 slept for 3500 millis
+2019-10-04 17:40:40.887 +0200 INFO  TestClassB:25 - Class B Test 2 slept for 2500 millis
+2019-10-04 17:40:40.890 +0200 INFO  TestClassB:31 - Class A Test 3 slept for 3000 millis
+2019-10-04 17:40:42.390 +0200 INFO  TestClassB:31 - Class B Test 3 slept for 1500 millis
+2019-10-04 17:40:42.892 +0200 INFO  TestClassB:37 - Class B Test 4 slept for 500 millis
+2019-10-04 17:40:44.892 +0200 INFO  TestClassB:37 - Class A Test 4 slept for 4000 millis
+2019-10-04 17:40:44.897 +0200 INFO  TestParallel:37 - -----------------------------------
+2019-10-04 17:40:45.906 +0200 INFO  TestClassB:19 - Class A Test 1 slept for 1000 millis
+2019-10-04 17:40:46.906 +0200 INFO  TestClassB:25 - Class A Test 2 slept for 2000 millis
+2019-10-04 17:40:47.906 +0200 INFO  TestClassB:31 - Class A Test 3 slept for 3000 millis
+2019-10-04 17:40:48.907 +0200 INFO  TestClassB:37 - Class A Test 4 slept for 4000 millis
+2019-10-04 17:40:49.411 +0200 INFO  TestClassB:37 - Class B Test 4 slept for 500 millis
+2019-10-04 17:40:50.411 +0200 INFO  TestClassB:31 - Class B Test 3 slept for 1500 millis
+2019-10-04 17:40:51.410 +0200 INFO  TestClassB:25 - Class B Test 2 slept for 2500 millis
+2019-10-04 17:40:52.410 +0200 INFO  TestClassB:19 - Class B Test 1 slept for 3500 millis
+2019-10-04 17:40:52.411 +0200 INFO  TestParallel:37 - -----------------------------------
+2019-10-04 17:40:52.933 +0200 INFO  TestClassB:37 - Class B Test 4 slept for 500 millis
+2019-10-04 17:40:53.424 +0200 INFO  TestClassB:19 - Class A Test 1 slept for 1000 millis
+2019-10-04 17:40:53.925 +0200 INFO  TestClassB:31 - Class B Test 3 slept for 1500 millis
+2019-10-04 17:40:54.424 +0200 INFO  TestClassB:25 - Class A Test 2 slept for 2000 millis
+2019-10-04 17:40:54.925 +0200 INFO  TestClassB:25 - Class B Test 2 slept for 2500 millis
+2019-10-04 17:40:55.425 +0200 INFO  TestClassB:31 - Class A Test 3 slept for 3000 millis
+2019-10-04 17:40:55.924 +0200 INFO  TestClassB:19 - Class B Test 1 slept for 3500 millis
+2019-10-04 17:40:56.425 +0200 INFO  TestClassB:37 - Class A Test 4 slept for 4000 millis
+2019-10-04 17:40:56.426 +0200 INFO  TestParallel:37 - -----------------------------------

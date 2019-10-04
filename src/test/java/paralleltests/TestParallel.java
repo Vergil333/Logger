@@ -1,5 +1,6 @@
 package paralleltests;
 
+import org.apache.log4j.Logger;
 import org.junit.After;
 import org.junit.Test;
 import org.junit.experimental.ParallelComputer;
@@ -33,6 +34,6 @@ public class TestParallel {
 
     @After
     public void delimiter() {
-        System.out.println("-----------------------------------");
+        Logger.getLogger(String.valueOf(TestParallel.class)).info("-----------------------------------");
     }
 }
