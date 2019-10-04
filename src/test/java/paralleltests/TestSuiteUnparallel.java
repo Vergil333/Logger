@@ -5,6 +5,6 @@ import org.junit.runners.Suite;
 import org.junit.runners.Suite.SuiteClasses;
 
 @RunWith(Suite.class)
-@SuiteClasses({TestClassA.class, TestClassB.class})
+@SuiteClasses({TestA.class, TestB.class})
 public class TestSuiteUnparallel {
 }

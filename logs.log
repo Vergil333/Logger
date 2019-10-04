@@ -1,27 +1,30 @@
-2019-10-04 17:40:35.883 +0200 INFO  TestClassB:19 - Class A Test 1 slept for 1000 millis
-2019-10-04 17:40:37.888 +0200 INFO  TestClassB:25 - Class A Test 2 slept for 2000 millis
-2019-10-04 17:40:38.382 +0200 INFO  TestClassB:19 - Class B Test 1 slept for 3500 millis
-2019-10-04 17:40:40.887 +0200 INFO  TestClassB:25 - Class B Test 2 slept for 2500 millis
-2019-10-04 17:40:40.890 +0200 INFO  TestClassB:31 - Class A Test 3 slept for 3000 millis
-2019-10-04 17:40:42.390 +0200 INFO  TestClassB:31 - Class B Test 3 slept for 1500 millis
-2019-10-04 17:40:42.892 +0200 INFO  TestClassB:37 - Class B Test 4 slept for 500 millis
-2019-10-04 17:40:44.892 +0200 INFO  TestClassB:37 - Class A Test 4 slept for 4000 millis
-2019-10-04 17:40:44.897 +0200 INFO  TestParallel:37 - -----------------------------------
-2019-10-04 17:40:45.906 +0200 INFO  TestClassB:19 - Class A Test 1 slept for 1000 millis
-2019-10-04 17:40:46.906 +0200 INFO  TestClassB:25 - Class A Test 2 slept for 2000 millis
-2019-10-04 17:40:47.906 +0200 INFO  TestClassB:31 - Class A Test 3 slept for 3000 millis
-2019-10-04 17:40:48.907 +0200 INFO  TestClassB:37 - Class A Test 4 slept for 4000 millis
-2019-10-04 17:40:49.411 +0200 INFO  TestClassB:37 - Class B Test 4 slept for 500 millis
-2019-10-04 17:40:50.411 +0200 INFO  TestClassB:31 - Class B Test 3 slept for 1500 millis
-2019-10-04 17:40:51.410 +0200 INFO  TestClassB:25 - Class B Test 2 slept for 2500 millis
-2019-10-04 17:40:52.410 +0200 INFO  TestClassB:19 - Class B Test 1 slept for 3500 millis
-2019-10-04 17:40:52.411 +0200 INFO  TestParallel:37 - -----------------------------------
-2019-10-04 17:40:52.933 +0200 INFO  TestClassB:37 - Class B Test 4 slept for 500 millis
-2019-10-04 17:40:53.424 +0200 INFO  TestClassB:19 - Class A Test 1 slept for 1000 millis
-2019-10-04 17:40:53.925 +0200 INFO  TestClassB:31 - Class B Test 3 slept for 1500 millis
-2019-10-04 17:40:54.424 +0200 INFO  TestClassB:25 - Class A Test 2 slept for 2000 millis
-2019-10-04 17:40:54.925 +0200 INFO  TestClassB:25 - Class B Test 2 slept for 2500 millis
-2019-10-04 17:40:55.425 +0200 INFO  TestClassB:31 - Class A Test 3 slept for 3000 millis
-2019-10-04 17:40:55.924 +0200 INFO  TestClassB:19 - Class B Test 1 slept for 3500 millis
-2019-10-04 17:40:56.425 +0200 INFO  TestClassB:37 - Class A Test 4 slept for 4000 millis
-2019-10-04 17:40:56.426 +0200 INFO  TestParallel:37 - -----------------------------------
+2019-10-04 18:16:49.419 +0200 INFO  Class: TestParallel:22, Method: parallelClasses, Msg: Started parallel classes tests.
+2019-10-04 18:16:50.442 +0200 INFO  Class: TestA:19, Method: test_A1, Msg: slept for 1000 millis
+2019-10-04 18:16:52.449 +0200 INFO  Class: TestA:25, Method: test_A2, Msg: slept for 2000 millis
+2019-10-04 18:16:52.942 +0200 INFO  Class: TestB:19, Method: test_B1, Msg: slept for 3500 millis
+2019-10-04 18:16:55.445 +0200 INFO  Class: TestB:25, Method: test_B2, Msg: slept for 2500 millis
+2019-10-04 18:16:55.451 +0200 INFO  Class: TestA:31, Method: test_A3, Msg: slept for 3000 millis
+2019-10-04 18:16:56.947 +0200 INFO  Class: TestB:31, Method: test_B3, Msg: slept for 1500 millis
+2019-10-04 18:16:57.449 +0200 INFO  Class: TestB:37, Method: test_B4, Msg: slept for 500 millis
+2019-10-04 18:16:59.453 +0200 INFO  Class: TestA:37, Method: test_A4, Msg: slept for 4000 millis
+2019-10-04 18:16:59.457 +0200 INFO  Class: TestParallel:27, Method: parallelClasses, Msg: Ended parallel classes tests.
+2019-10-04 18:16:59.461 +0200 INFO  Class: TestParallel:33, Method: parallelMethods, Msg: Started parallel methods of classes test.
+2019-10-04 18:17:00.468 +0200 INFO  Class: TestA:19, Method: test_A1, Msg: slept for 1000 millis
+2019-10-04 18:17:01.468 +0200 INFO  Class: TestA:25, Method: test_A2, Msg: slept for 2000 millis
+2019-10-04 18:17:02.471 +0200 INFO  Class: TestA:31, Method: test_A3, Msg: slept for 3000 millis
+2019-10-04 18:17:03.471 +0200 INFO  Class: TestA:37, Method: test_A4, Msg: slept for 4000 millis
+2019-10-04 18:17:03.975 +0200 INFO  Class: TestB:37, Method: test_B4, Msg: slept for 500 millis
+2019-10-04 18:17:04.975 +0200 INFO  Class: TestB:31, Method: test_B3, Msg: slept for 1500 millis
+2019-10-04 18:17:05.975 +0200 INFO  Class: TestB:25, Method: test_B2, Msg: slept for 2500 millis
+2019-10-04 18:17:06.974 +0200 INFO  Class: TestB:19, Method: test_B1, Msg: slept for 3500 millis
+2019-10-04 18:17:06.976 +0200 INFO  Class: TestParallel:37, Method: parallelMethods, Msg: Ended parallel methods of classes test.
+2019-10-04 18:17:06.979 +0200 INFO  Class: TestParallel:43, Method: parallelAllMethods, Msg: Started parallel classes and their methods test.
+2019-10-04 18:17:07.491 +0200 INFO  Class: TestB:37, Method: test_B4, Msg: slept for 500 millis
+2019-10-04 18:17:07.989 +0200 INFO  Class: TestA:19, Method: test_A1, Msg: slept for 1000 millis
+2019-10-04 18:17:08.491 +0200 INFO  Class: TestB:31, Method: test_B3, Msg: slept for 1500 millis
+2019-10-04 18:17:08.990 +0200 INFO  Class: TestA:25, Method: test_A2, Msg: slept for 2000 millis
+2019-10-04 18:17:09.490 +0200 INFO  Class: TestB:25, Method: test_B2, Msg: slept for 2500 millis
+2019-10-04 18:17:09.990 +0200 INFO  Class: TestA:31, Method: test_A3, Msg: slept for 3000 millis
+2019-10-04 18:17:10.490 +0200 INFO  Class: TestB:19, Method: test_B1, Msg: slept for 3500 millis
+2019-10-04 18:17:10.991 +0200 INFO  Class: TestA:37, Method: test_A4, Msg: slept for 4000 millis
+2019-10-04 18:17:10.994 +0200 INFO  Class: TestParallel:47, Method: parallelAllMethods, Msg: Ended parallel classes and their methods test.
