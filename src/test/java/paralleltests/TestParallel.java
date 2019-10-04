@@ -34,6 +34,6 @@ public class TestParallel {
 
     @After
     public void delimiter() {
-        Logger.getLogger(String.valueOf(TestParallel.class)).info("-----------------------------------");
+        Logger.getLogger(TestParallel.class).info("-----------------------------------");
     }
 }
